@@ -71,7 +71,7 @@ D2Vformer for Regular time series forecasting
 
 D2Vformer for Flexible Prediction
 ```bash
- ./Flexib_Prediction/scripts/D2Vformer.sh
+ ./Flexib_Prediction_1_Aug/scripts/D2Vformer.sh
 ```
 
 Evalutaion of Date2vec
@@ -103,3 +103,9 @@ The results of flexible prediction.
 The evaluation of the performance of different timestamp embedding methods
 
 ![D2Vformer](./imgs/DateVec_results.png)
+
+## Acknowledge
+We appreciate the following github repositories for their valuable code references:
+
+- Autoformer [Code](https://github.com/thuml/autoformer)  (NlPS 2021)
+- PatchTST [Code](https://github.com/yuqinie98/patchtst)  (ICLR 2023)
